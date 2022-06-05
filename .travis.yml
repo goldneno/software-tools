@@ -14,3 +14,4 @@ script:
 - cat $HOME/.m2/settings.xml
 #deploying the app on Docker & Heroku
 - mvn clean package
+- mvn heroku:deploy
